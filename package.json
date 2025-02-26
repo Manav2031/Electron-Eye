@@ -19,6 +19,10 @@
     "electron": "^29.3.0"
   },
   "build": {
+    "asarUnpack": "**/*",
+  "forceCodeSigning": false,
+  "extraResources": [],
+  "fileAssociations": [],
     "appId": "com.Manav2031.electronapp",
     "productName": "ElectronEyeActivityTrackingandVisualisationApplication",
     "directories": {
@@ -31,7 +35,9 @@
       "package.json"
     ],
     "win": {
-      "target": "nsis"
+      "target": "nsis",
+      "fileAssociations": [],
+      "signAndEditExecutable": false
     },
     "publish": {
       "provider": "github",
