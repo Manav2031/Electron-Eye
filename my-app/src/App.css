@@ -1,0 +1,75 @@
+/* App.css */
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+  
+}
+
+h2 {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: calc(100% - 10px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="password"] {
+  width: calc(100% - 10px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 10px auto;
+  cursor: pointer;
+  background-color: #968df0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color:  #500073;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+.Adminlogin{
+  background-color: rgb(229, 210, 248);
+}
+.Home{
+  display: block;
+  width: 10%;
+  padding: 2px 2px;
+  margin: 50px auto;
+  cursor: pointer;
+  color:black;
+  border: none;
+}
