@@ -12,11 +12,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "electron": "^29.3.0",
     "electron-updater": "^6.3.9"
   },
   "devDependencies": {
-    "electron-builder": "^25.1.8"
+    "electron-builder": "^25.1.8",
+    "electron": "^29.3.0"
   },
   "build": {
     "appId": "com.Manav2031.electronapp",
